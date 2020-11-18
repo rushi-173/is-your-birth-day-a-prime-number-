@@ -15,11 +15,11 @@ function isPrime(num){
 function check(bDate, bMonth){
   let chknum = (bDate*100)+bMonth+1;
   if(isPrime(chknum)){
-    console.log(chalk.black.bgGreen("Your Birthday (DDMM) is a Prime number"));
+    console.log(chalk.black.bgGreen("Your Birthday (",chknum, ") is a Prime number"));
     console.log(chalk.blue.bgYellow.bold("Take a screenshot & Share it with your  friends."));
   }
   else{
-    console.log(chalk.bgRed("Your Birthday (DDMM) is not a Prime number"));
+    console.log(chalk.bgRed("Your Birthday (",chknum, ") is not a Prime number"));
   }
 }
 
