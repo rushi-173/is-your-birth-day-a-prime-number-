@@ -1,0 +1,24 @@
+{
+  "name": "is-your-birth-day-a-prime-number",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushi-173/is-your-birth-day-a-prime-number-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushi-173/is-your-birth-day-a-prime-number-/issues"
+  },
+  "homepage": "https://github.com/rushi-173/is-your-birth-day-a-prime-number-#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "readline-sync": "^1.4.10"
+  }
+}
